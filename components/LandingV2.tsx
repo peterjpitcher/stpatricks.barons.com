@@ -1040,7 +1040,7 @@ img { display: block; max-width: 100%; height: auto; }
                     <span className="ln">Two</span>
                     <span className="ln-gold">Hours.</span>
                   </h1>
-                  <p className="hero-lead">Two full hours of brilliant Irish drinks — poured cold and ready from 5pm. Guinness cheaper. Jameson sorted. Baby Guinness in threes. Every Barons pub. This Tuesday only.</p>
+                  <p className="hero-lead">Two full hours of brilliant Irish drinks — poured cold and ready from 5pm. Guinness cheaper. Jameson sorted. Baby Guinness in threes. Every Barons pub.</p>
                   <div className="hero-actions">
                     <a href="#offers" className="btn primary">See the offers</a>
                     <a href="#find-your-pub" className="btn outline">Find your pub</a>
@@ -1075,7 +1075,7 @@ img { display: block; max-width: 100%; height: auto; }
                     <div className="offer-card-glow"></div>
                     <p className="offer-label">☘ The whiskey</p>
                     <p className="offer-drink">Jameson</p>
-                    <p className="offer-price">£5 dbl</p>
+                    <p className="offer-price">£5 double</p>
                     <p className="offer-desc">Ireland&apos;s most famous whiskey. Neat, over ice, or alongside a pint. A Jameson double for £5, two hours only.</p>
                   </div>
                   <div className="offer-card">
@@ -1176,7 +1176,6 @@ img { display: block; max-width: 100%; height: auto; }
                 <ul className="callout-list">
                   <li>Full food menus available all evening at all sites</li>
                   <li><strong style={{ color: 'var(--cream)' }}>Virtuous</strong> low and no alcohol options available throughout — wines, beers, and cocktails</li>
-                  <li>Silent Pool Gin on the bar at every Barons pub</li>
                   <li>No dress code, no age restrictions, dogs welcome in designated areas</li>
                 </ul>
               </section>
@@ -1184,7 +1183,7 @@ img { display: block; max-width: 100%; height: auto; }
               {/* FIND YOUR PUB */}
               <section className="editorial" id="find-your-pub" aria-labelledby="sites-heading">
                 <h2 id="sites-heading">Happy Two Hours — at all Barons Pubs</h2>
-                <p>We&apos;re running Happy Two Hours across all eleven of our sites on Tuesday 17 March. Find yours below.</p>
+                <p>We&apos;re running Happy Two Hours across all ten of our sites on Tuesday 17 March. Find yours below.</p>
                 <div className="sites-grid">
                   <div className="site-card">
                     <p className="site-location">Bletchingley, Redhill</p>
@@ -1199,12 +1198,7 @@ img { display: block; max-width: 100%; height: auto; }
                   <div className="site-card">
                     <p className="site-location">Camberley, Surrey</p>
                     <p className="site-name">The Crown &amp; Cushion</p>
-                    <p className="site-desc">A family-friendly pub restaurant with the impressive Meade Hall events venue on site.</p>
-                  </div>
-                  <div className="site-card">
-                    <p className="site-location">At The Crown &amp; Cushion, Camberley</p>
-                    <p className="site-name">Meade Hall</p>
-                    <p className="site-desc">A medieval barn venue — a genuinely different place to raise a glass on St Patrick&apos;s Day.</p>
+                    <p className="site-desc">A family-friendly pub restaurant in the heart of Camberley.</p>
                   </div>
                   <div className="site-card">
                     <p className="site-location">Copthorne, Surrey</p>
@@ -1250,7 +1244,7 @@ img { display: block; max-width: 100%; height: auto; }
               {/* ABOUT */}
               <section className="editorial" aria-labelledby="about-heading">
                 <h2 id="about-heading">About Barons Pubs</h2>
-                <p>Barons Pubs is a family of eleven pubs and venues across Surrey and Berkshire, each run by a team that knows its local community well.</p>
+                <p>Barons Pubs is a family of ten pubs and venues across Surrey and Berkshire, each run by a team that knows its local community well.</p>
                 <p>Every site is independently run within the group, which means each pub has its own character — but the things that matter are consistent everywhere: great food, genuine service, and a welcome that works for real life. St Patrick&apos;s Day is just one example of how we like to mark the calendar — turning a Tuesday into a proper occasion without making a big fuss of it.</p>
               </section>
 
@@ -1274,8 +1268,8 @@ img { display: block; max-width: 100%; height: auto; }
                   <p>The three Happy Two Hours offers are each standalone — you can order any or all of them during the 5pm–7pm window. They cannot be combined with other promotions or discounts.</p>
                 </div>
                 <div className="faq-item">
-                  <h3>Is there a Baby Guinness minimum age?</h3>
-                  <p>All offers are for guests aged 18 and over. Challenge 25 applies at all Barons Pubs.</p>
+                  <h3>Do I need to be 18 to take part?</h3>
+                  <p>Yes — all Happy Two Hours drinks offers are for guests aged 18 and over. We operate a Challenge 25 policy at all Barons Pubs: if you look under 25, you&apos;ll be asked for valid ID before being served alcohol.</p>
                 </div>
               </section>
 

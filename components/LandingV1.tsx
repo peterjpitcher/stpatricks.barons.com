@@ -844,7 +844,7 @@ footer#extended nav ul li a:hover { border-color: #ffffff; }
 
                 <div className="hero-main-copy">
                   <h1>Happy Two<br />Hours!</h1>
-                  <p className="hero-lead">Two full hours of brilliant Irish drinks &mdash; poured cold and ready from 5pm. Guinness cheaper. Jameson sorted. Baby Guinness in threes. Every Barons pub. This Tuesday only.</p>
+                  <p className="hero-lead">Two full hours of brilliant Irish drinks &mdash; poured cold and ready from 5pm. Guinness cheaper. Jameson sorted. Baby Guinness in threes. Every Barons pub.</p>
                   <div className="hero-actions">
                     <a href="#offers" className="button primary"><span className="text">See the offers</span></a>
                     <a href="#find-your-pub" className="button ghost"><span className="text">Find your pub</span></a>
@@ -980,7 +980,6 @@ footer#extended nav ul li a:hover { border-color: #ffffff; }
                 <ul className="editorial-callouts">
                   <li>Full food menus available all evening at all sites</li>
                   <li><strong>Virtuous</strong> low and no alcohol options available throughout &mdash; wines, beers, and cocktails</li>
-                  <li>Silent Pool Gin on the bar at every Barons pub</li>
                   <li>No dress code, no age restrictions, dogs welcome in designated areas</li>
                 </ul>
               </section>
@@ -989,7 +988,7 @@ footer#extended nav ul li a:hover { border-color: #ffffff; }
               <section className="seo-editorial" id="find-your-pub" aria-labelledby="sites-heading">
                 <div className="editorial-header">
                   <h2 id="sites-heading">Happy Two Hours &mdash; at all Barons Pubs</h2>
-                  <p>We{`'`}re running Happy Two Hours across all eleven of our sites on Tuesday 17 March. Find yours below.</p>
+                  <p>We{`'`}re running Happy Two Hours across all ten of our sites on Tuesday 17 March. Find yours below.</p>
                 </div>
                 <div className="sites-grid">
                   <div className="site-card">
@@ -1005,12 +1004,7 @@ footer#extended nav ul li a:hover { border-color: #ffffff; }
                   <div className="site-card">
                     <p className="site-location">Camberley, Surrey</p>
                     <p className="site-name">The Crown &amp; Cushion</p>
-                    <p className="site-desc">A family-friendly pub restaurant with the impressive Meade Hall events venue on site.</p>
-                  </div>
-                  <div className="site-card">
-                    <p className="site-location">At The Crown &amp; Cushion, Camberley</p>
-                    <p className="site-name">Meade Hall</p>
-                    <p className="site-desc">A medieval barn venue &mdash; a genuinely different place to raise a glass on St Patrick{`'`}s Day.</p>
+                    <p className="site-desc">A family-friendly pub restaurant in the heart of Camberley.</p>
                   </div>
                   <div className="site-card">
                     <p className="site-location">Copthorne, Surrey</p>
@@ -1054,7 +1048,7 @@ footer#extended nav ul li a:hover { border-color: #ffffff; }
               <section className="seo-editorial" aria-labelledby="about-heading">
                 <div className="editorial-header">
                   <h2 id="about-heading">About Barons Pubs</h2>
-                  <p>Barons Pubs is a family of eleven pubs and venues across Surrey and Berkshire, each run by a team that knows its local community well.</p>
+                  <p>Barons Pubs is a family of ten pubs and venues across Surrey and Berkshire, each run by a team that knows its local community well.</p>
                 </div>
                 <div className="editorial-stack">
                   <p>Every site is independently run within the group, which means each pub has its own character &mdash; but the things that matter are consistent everywhere: great food, genuine service, and a welcome that works for real life. Whether you{`'`}re popping in for a quick pint or settling in for the evening, you{`'`}re in the right place.</p>
@@ -1083,8 +1077,8 @@ footer#extended nav ul li a:hover { border-color: #ffffff; }
                     <p>The three Happy Two Hours offers are each standalone &mdash; you can order any or all of them during the 5pm&ndash;7pm window. They cannot be combined with other promotions or discounts.</p>
                   </article>
                   <article>
-                    <h3>Is there a Baby Guinness minimum age?</h3>
-                    <p>All offers are for guests aged 18 and over. Challenge 25 applies at all Barons Pubs.</p>
+                    <h3>Do I need to be 18 to take part?</h3>
+                    <p>Yes &mdash; all Happy Two Hours drinks offers are for guests aged 18 and over. We operate a Challenge 25 policy at all Barons Pubs: if you look under 25, you&apos;ll be asked for valid ID before being served alcohol.</p>
                   </article>
                 </div>
               </section>
