@@ -107,7 +107,7 @@ export default function CookieConsent() {
       <div className="cookie-bar" role="region" aria-label="Cookie consent">
         <p>
           We use cookies to measure how this page is used.{' '}
-          <a href="https://www.baronspubs.com/privacy-policy" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.baronspubs.com/policies/website-privacy/" target="_blank" rel="noopener noreferrer">
             Privacy policy
           </a>
           .

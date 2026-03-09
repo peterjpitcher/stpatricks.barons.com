@@ -7,7 +7,7 @@ export default function LandingV2() {
 
 /* ─── Reset ─── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-padding-top: 168px; }
+html { scroll-padding-top: 120px; }
 a { color: inherit; text-decoration: none; }
 img { display: block; max-width: 100%; height: auto; }
 
@@ -70,7 +70,7 @@ img { display: block; max-width: 100%; height: auto; }
 /* ─── NAV ─── */
 #top-bar {
   position: sticky;
-  top: 48px;
+  top: 0;
   z-index: 2998;
   background: var(--bg);
   border-bottom: 1px solid var(--border);
@@ -189,7 +189,7 @@ img { display: block; max-width: 100%; height: auto; }
 /* ─── Sticky sub-bar ─── */
 .sticky-bar {
   position: sticky;
-  top: 120px; /* 48px switcher + 72px top-bar nav */
+  top: 72px; /* 72px top-bar nav */
   z-index: 2997;
   background: var(--bg-raised);
   border-bottom: 1px solid var(--border);
@@ -952,7 +952,7 @@ img { display: block; max-width: 100%; height: auto; }
 /* ─── Responsive ─── */
 @media (max-width: 980px) {
   .hero { grid-template-columns: 1fr; gap: 2rem; }
-  .hero-image-wrap { aspect-ratio: 16/9; }
+  .hero-image-wrap { aspect-ratio: 4/5; }
   .hero-badge { bottom: -0.75rem; right: 0.75rem; }
   .offer-grid { grid-template-columns: 1fr; }
   .drink-gallery { grid-template-columns: 1fr; }
@@ -963,6 +963,9 @@ img { display: block; max-width: 100%; height: auto; }
 }
 @media (max-width: 640px) {
   #top-bar header { min-height: 56px; }
+  .sticky-bar { top: 56px; }
+  .sticky-bar-inner { gap: 0.5rem; padding-block: 0.45rem; }
+  .sticky-label span { display: none; }
   .parent-menu > li:not(.btn-see-offers) { display: none; }
   .landing { padding: 2rem 0 3rem; }
   .booking-cta { padding: 2.5rem 1.5rem; }
@@ -991,10 +994,11 @@ img { display: block; max-width: 100%; height: auto; }
             </a>
             <nav>
               <ul className="parent-menu">
-                <li><a href="#">Find a pub</a></li>
-                <li><a href="#">What&apos;s On</a></li>
-                <li><a href="#">Food &amp; Drink</a></li>
-                <li><a href="#">Your Event</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="https://www.baronspubs.com/pubs/" target="_blank" rel="noopener noreferrer">Our Pubs &amp; Caf&eacute;</a></li>
+                <li><a href="https://shop.baronspubs.com/" target="_blank" rel="noopener noreferrer">Shop Online</a></li>
+                <li><a href="https://www.baronspubs.com/contact/" target="_blank" rel="noopener noreferrer">Contact</a></li>
+                <li><a href="https://jobs.baronspubs.com/" target="_blank" rel="noopener noreferrer">Join Our Team</a></li>
                 <li className="btn-see-offers"><a href="#offers">See the offers</a></li>
               </ul>
             </nav>
@@ -1008,7 +1012,7 @@ img { display: block; max-width: 100%; height: auto; }
               <strong>St Patrick&apos;s Day</strong>
               <span>Happy Two Hours &mdash; 5pm to 7pm, 17 March only</span>
             </div>
-            <a href="#find-your-pub" className="sticky-btn">Find your pub</a>
+            <a href="https://www.baronspubs.com/pubs/" target="_blank" rel="noopener noreferrer" className="sticky-btn">Find your pub</a>
             <a href="#offers" className="sticky-btn primary">See the offers</a>
           </div>
         </div>
@@ -1043,7 +1047,7 @@ img { display: block; max-width: 100%; height: auto; }
                   <p className="hero-lead">Two full hours of brilliant Irish drinks — poured cold and ready from 5pm. Guinness cheaper. Jameson sorted. Baby Guinness in threes. Every Barons pub.</p>
                   <div className="hero-actions">
                     <a href="#offers" className="btn primary">See the offers</a>
-                    <a href="#find-your-pub" className="btn outline">Find your pub</a>
+                    <a href="https://www.baronspubs.com/pubs/" target="_blank" rel="noopener noreferrer" className="btn outline">Find your pub</a>
                   </div>
                   <ul className="hero-facts" aria-label="Key details">
                     <li className="hero-fact">Tuesday 17 March 2026</li>
@@ -1092,7 +1096,7 @@ img { display: block; max-width: 100%; height: auto; }
                     <p className="time-label">Available at all Barons Pubs</p>
                     <p className="time-main">Tuesday 17 March 2026 &mdash; 5:00pm to 7:00pm only</p>
                   </div>
-                  <a href="#find-your-pub" className="time-link">Find your pub &rsaquo;</a>
+                  <a href="https://www.baronspubs.com/pubs/" target="_blank" rel="noopener noreferrer" className="time-link">Find your pub &rsaquo;</a>
                 </div>
               </section>
 
@@ -1284,7 +1288,7 @@ img { display: block; max-width: 100%; height: auto; }
                 <h2>Tuesday 17 March.<br />Starts at 5.</h2>
                 <p>Happy Two Hours runs 5:00pm to 7:00pm only. Find your nearest Barons pub and we&apos;ll see you there.</p>
                 <div className="booking-cta-actions">
-                  <a href="#find-your-pub" className="btn primary">Find your nearest pub</a>
+                  <a href="https://www.baronspubs.com/pubs/" target="_blank" rel="noopener noreferrer" className="btn primary">Find your nearest pub</a>
                   <a href="#offers" className="btn outline">See the offers</a>
                 </div>
               </div>
@@ -1301,18 +1305,17 @@ img { display: block; max-width: 100%; height: auto; }
                 <h3>Barons Pubs</h3>
                 <p>A Barons Pub Company Ltd</p>
                 <p>Registered Office: Welden Turnbull, Albany House,<br />Claremont Lane, Esher, Surrey, KT10 9FQ</p>
-                <p style={{ marginTop: '0.5rem' }}><a href="#">Find a pub near you</a></p>
+                <p style={{ marginTop: '0.5rem' }}><a href="https://www.baronspubs.com/pubs/" target="_blank" rel="noopener noreferrer">Find a pub near you</a></p>
               </address>
               <nav className="footer-nav" aria-label="Footer navigation">
                 <ul>
-                  <li><a href="#">Find a Pub</a></li>
-                  <li><a href="#">What&apos;s On</a></li>
-                  <li><a href="#">Food &amp; Drink</a></li>
-                  <li><a href="#">Your Event</a></li>
+                  <li><a href="https://www.baronspubs.com/pubs/" target="_blank" rel="noopener noreferrer">Our Pubs &amp; Caf&eacute;</a></li>
+                  <li><a href="https://shop.baronspubs.com/" target="_blank" rel="noopener noreferrer">Shop Online</a></li>
+                  <li><a href="https://www.baronspubs.com/contact/" target="_blank" rel="noopener noreferrer">Contact</a></li>
                   <li><a href="#">Barons Pub Company</a></li>
                   <li><a href="#">Privacy Policies</a></li>
                   <li><a href="#">Terms &amp; Conditions</a></li>
-                  <li><a href="#">Join Our Team</a></li>
+                  <li><a href="https://jobs.baronspubs.com/" target="_blank" rel="noopener noreferrer">Join Our Team</a></li>
                 </ul>
               </nav>
             </div>
