@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/* V1 design tokens — light Irish green theme */
+:root {
+  --irish-dark: #14432a;
+  --irish-mid: #1e6640;
+  --irish-light: #267a4d;
+  --irish-gold: #d4a826;
+  --irish-bg: #e8f4ed;
+  --irish-text: #0d2b1a;
+  --irish-cream: #fdf8f0;
+}
+
+/* V2 design tokens — dark premium theme */
+.theme-v2 {
+  --bg: #0c1d11;
+  --cream: #f0e6c6;
+  --gold: #c9a020;
+  --gold-light: #e8c84a;
+  --green-mid: #1a3d22;
+  --green-border: #2a5c35;
+  --text-muted: #a89b7a;
+}
+
+/* Fade-up animation for V2 */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-up {
+  animation: fadeUp 0.6s ease forwards;
+}
+
+/* General reset helpers */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
