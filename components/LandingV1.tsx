@@ -44,7 +44,7 @@ export default function LandingV1() {
 
 /* ─── Reset ─── */
 *, *::before, *::after { box-sizing: border-box; }
-html { scroll-padding-top: 92px; }
+html { scroll-padding-top: 140px; }
 body {
   margin: 0;
   color: #1f2d37;
@@ -78,7 +78,7 @@ p { margin: 0; }
 /* ─── Top bar / nav ─── */
 #top-bar {
   position: sticky;
-  top: 0;
+  top: 48px;
   left: 0;
   right: 0;
   z-index: 2998;
@@ -237,7 +237,7 @@ p { margin: 0; }
 /* ─── Sticky sub-bar ─── */
 .sticky-booking-menu {
   position: sticky;
-  top: 84px; /* height of top-bar nav */
+  top: 132px; /* 48px switcher + 84px top-bar nav */
   z-index: 2997;
   background: linear-gradient(90deg, #14432a 0%, #1e6640 100%);
   border-bottom: 1px solid rgba(255,255,255,0.14);

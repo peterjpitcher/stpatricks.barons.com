@@ -7,7 +7,7 @@ export default function LandingV2() {
 
 /* ─── Reset ─── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-padding-top: 120px; }
+html { scroll-padding-top: 168px; }
 a { color: inherit; text-decoration: none; }
 img { display: block; max-width: 100%; height: auto; }
 
@@ -70,7 +70,7 @@ img { display: block; max-width: 100%; height: auto; }
 /* ─── NAV ─── */
 #top-bar {
   position: sticky;
-  top: 0;
+  top: 48px;
   z-index: 2998;
   background: var(--bg);
   border-bottom: 1px solid var(--border);
@@ -189,7 +189,7 @@ img { display: block; max-width: 100%; height: auto; }
 /* ─── Sticky sub-bar ─── */
 .sticky-bar {
   position: sticky;
-  top: 72px;
+  top: 120px; /* 48px switcher + 72px top-bar nav */
   z-index: 2997;
   background: var(--bg-raised);
   border-bottom: 1px solid var(--border);
