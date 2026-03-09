@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 interface VariantSwitcherProps {
   activeVariant: '1' | '2';
 }
@@ -26,7 +28,7 @@ export default function VariantSwitcher({ activeVariant }: VariantSwitcherProps)
     >
       <span style={{ opacity: 0.6, marginRight: '4px' }}>Design variant:</span>
 
-      <a
+      <Link
         href="/?v=1"
         style={{
           padding: '5px 16px',
@@ -41,9 +43,9 @@ export default function VariantSwitcher({ activeVariant }: VariantSwitcherProps)
         }}
       >
         Version 1 — Light
-      </a>
+      </Link>
 
-      <a
+      <Link
         href="/?v=2"
         style={{
           padding: '5px 16px',
@@ -58,7 +60,7 @@ export default function VariantSwitcher({ activeVariant }: VariantSwitcherProps)
         }}
       >
         Version 2 — Dark
-      </a>
+      </Link>
 
       <span style={{ opacity: 0.4, marginLeft: '8px', fontSize: '12px' }}>
         St Patrick&apos;s Day 2026 · Barons Pubs
