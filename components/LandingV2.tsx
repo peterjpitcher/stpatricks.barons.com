@@ -1180,7 +1180,8 @@ img { display: block; max-width: 100%; height: auto; }
                 <ul className="callout-list">
                   <li>Full food menus available all evening at all sites</li>
                   <li><strong style={{ color: 'var(--cream)' }}>Virtuous</strong> low and no alcohol options available throughout — wines, beers, and cocktails</li>
-                  <li>No dress code, no age restrictions, dogs welcome in designated areas</li>
+                  <li>No dress code</li>
+                  <li>Dogs welcome in designated areas</li>
                 </ul>
               </section>
 
@@ -1248,7 +1249,7 @@ img { display: block; max-width: 100%; height: auto; }
               {/* ABOUT */}
               <section className="editorial" aria-labelledby="about-heading">
                 <h2 id="about-heading">About Barons Pubs</h2>
-                <p>Barons Pubs is a family of ten pubs and venues across Surrey and Berkshire, each run by a team that knows its local community well.</p>
+                <p>Barons Pubs is a family including ten pubs and venues across Surrey and Berkshire, each run by a team that knows its local community well.</p>
                 <p>Every site is independently run within the group, which means each pub has its own character — but the things that matter are consistent everywhere: great food, genuine service, and a welcome that works for real life. St Patrick&apos;s Day is just one example of how we like to mark the calendar — turning a Tuesday into a proper occasion without making a big fuss of it.</p>
               </section>
 
@@ -1261,7 +1262,7 @@ img { display: block; max-width: 100%; height: auto; }
                 </div>
                 <div className="faq-item">
                   <h3>Are the offers available all day on St Patrick&apos;s Day?</h3>
-                  <p>No — Happy Two Hours runs from <strong style={{ color: 'var(--cream)' }}>5:00pm to 7:00pm only</strong> on Tuesday 17 March 2026. The offers are not available outside that window.</p>
+                  <p>Happy Two Hours runs from <strong style={{ color: 'var(--cream)' }}>5:00pm to 7:00pm only</strong> on Tuesday 17 March 2026. The offers are not available outside that window.</p>
                 </div>
                 <div className="faq-item">
                   <h3>Which Barons pubs are taking part?</h3>
