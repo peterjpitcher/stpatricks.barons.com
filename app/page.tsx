@@ -1,3 +1,5 @@
+import LandingV1 from '@/components/LandingV1';
+
 export default function Home() {
-  return <div>Setting up...</div>;
+  return <LandingV1 />;
 }
